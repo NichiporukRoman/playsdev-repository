@@ -3,7 +3,7 @@ services:
     container_name: apache
     build:
       context: /home/ubuntu1/tasks/task_12/configs/local/apache
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     ports:
       - 8080:8080
     networks:
@@ -14,7 +14,7 @@ services:
     container_name: nginx
     build:
       context: /home/ubuntu1/tasks/task_12/configs/local/nginx
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     ports:
       - 81:80
     networks:
