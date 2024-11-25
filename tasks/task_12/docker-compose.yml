@@ -16,7 +16,7 @@ services:
       context: /home/ubuntu1/tasks/task_12/configs/local/nginx
       dockerfile: dockerfile
     ports:
-      - 81:80
+      - 80:80
     networks:
       - br0
     volumes:
