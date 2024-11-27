@@ -8,5 +8,5 @@
   when: ansible_os_family == "Debian"
 
 - name: Install Docker on Amazon Linux
-  script: /home/roman/playsdev-tranee/tasks/task_15/docker-compose.sh
+  script: '{{ docker_compose_install_amazon }}'
   when: ansible_os_family == "RedHat"

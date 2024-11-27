@@ -1,2 +1,1 @@
----
-# vars file for docker
+docker_compose_install_amazon: "/home/roman/playsdev-tranee/tasks/task_15/docker-compose.sh"
